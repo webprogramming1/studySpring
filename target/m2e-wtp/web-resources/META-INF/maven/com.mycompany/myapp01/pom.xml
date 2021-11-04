@@ -115,7 +115,39 @@
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
-		</dependency>        
+		</dependency>
+		
+		<!-- add -->
+		<!-- aop 설정 아래 두개의 dependency가 필요 -->
+		<!-- https://mvnrepository.com/artifact/aopalliance/aopalliance -->
+		<dependency>
+			<groupId>aopalliance</groupId>
+			<artifactId>aopalliance</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.6.8</version>
+		</dependency>
+		
+		<!-- cglib -->
+		<dependency>
+		  	<groupId>cglib</groupId>
+		  	<artifactId>cglib</artifactId>
+		  	<version>2.2</version>
+		</dependency>
+		
+		<!-- add -->
+		<!-- 유효성 검사 아래 디펜던시가 필요 -->
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.0.22.Final</version>
+		</dependency>
+   
 	</dependencies>
     <build>
         <plugins>
