@@ -9,6 +9,6 @@
 	Hello world!  
 </h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+<P> <a href="lhk/input">lhk</a></P>
 </body>
 </html>
