@@ -1,8 +1,11 @@
-package com.mycompany.myapp01;
+package com.smarteditor.test;
 
+import java.io.UnsupportedEncodingException;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
+
+import javax.servlet.http.HttpServletRequest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,6 +36,22 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
+		
+		return "home";
+	}
+	@RequestMapping(value = "/", method = RequestMethod.POST)
+	public String submit(HttpServletRequest req, Locale locale, Model model) {
+		logger.info("Welcome home! The client locale is {}.", locale);
+		
+		try {
+			req.setCharacterEncoding("utf-8");
+		} catch (UnsupportedEncodingException e) {
+			// TODO 자동 생성된 catch 블록
+			e.printStackTrace();
+		}
+		String ta = req.getParameter("ta_content");
+		System.out.println(ta);
+		model.addAttribute("serverTime", ta);
 		
 		return "home";
 	}

@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.mycompany.myapp01">
+	<logger name="com.smarteditor.test">
 		<level value="info" />
 	</logger>
 	
