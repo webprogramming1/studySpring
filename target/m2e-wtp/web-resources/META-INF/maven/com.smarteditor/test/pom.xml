@@ -118,6 +118,15 @@
 			<version>4.7</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- add -->
+		<!-- 유효성 검사 아래 디펜던시가 필요 -->
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.0.22.Final</version>
+		</dependency>
+   
 		<dependency>
 		   <groupId>io.jsonwebtoken</groupId>
 		   <artifactId>jjwt</artifactId>
@@ -189,6 +198,7 @@
 		    <artifactId>ojdbc6</artifactId>
 		    <version>11.2.0.3</version>
 		</dependency>
+
 	</dependencies>
 
     <build>

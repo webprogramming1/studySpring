@@ -35,15 +35,14 @@
 	Hello world!  
 </h1>
 
-<<<<<<< HEAD
 <P> <a href="lhk/input">lhk</a></P>
-=======
+
 <P>  The time on the server is ${serverTime}. </P>
 <form id="smart-editor" action="/myapp01/" method="post">
 	<textarea class="form-control" rows="20" cols="20" name="ta_content" id="ta_content"></textarea>
 </form>
 <button id="submit">전송</button>
 <button id="login">로그인</button>
->>>>>>> origin/ljp
+
 </body>
 </html>
