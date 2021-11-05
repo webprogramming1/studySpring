@@ -73,6 +73,6 @@ public class Book {
 		this.imagepath = imagepath;
 	}
 
-
+	/* test */
 
 }
