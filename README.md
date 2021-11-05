@@ -22,3 +22,4 @@
  참고자료 (공부하시면서 참고하신 자료도 공유해주세요!)
  
  * 스프링 MVC 개념 : [https://wave1994.tistory.com/124]
+ * JWT [https://dkyou.tistory.com/65?category=877213]
